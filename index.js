@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node! Staging site used for this lab\n'
+  const msg = 'Now staging is Pproduction it is tested we can live this App'
   res.end(msg);
 });
 
